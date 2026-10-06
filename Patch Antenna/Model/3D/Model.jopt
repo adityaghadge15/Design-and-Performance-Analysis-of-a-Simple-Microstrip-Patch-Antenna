@@ -1,0 +1,224 @@
+{
+    "Optimizer": {
+        "Goals": [
+            {
+                "Complex Type": "MagdB",
+                "Goal Name": "Result 1DC",
+                "Goal Norm": "MaxDiff",
+                "Goal active": "True",
+                "Operator": "<",
+                "Range Type": "Total",
+                "Result List": [
+                    {
+                        "Data Source": "Solver",
+                        "Treepath": "1D Results\\S-Parameters\\S1,1",
+                        "Type": "1D Complex"
+                    }
+                ],
+                "Target": "-40",
+                "Target Max": "0.0",
+                "Use Slope": "False",
+                "Weight": "1.0"
+            }
+        ],
+        "Parameters": {
+            "Parameter List": [
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "0.2",
+                    "Max Value": "0.055",
+                    "Min Value": "0.045",
+                    "Parameter Name": "c"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "0.2",
+                    "Max Value": "0.055",
+                    "Min Value": "0.045",
+                    "Parameter Name": "d"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "0.2",
+                    "Max Value": "0.088",
+                    "Min Value": "0.072",
+                    "Parameter Name": "g"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "0.55",
+                    "Max Value": "0.605",
+                    "Min Value": "0.495",
+                    "Parameter Name": "INL"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "0.15",
+                    "Max Value": "0.165",
+                    "Min Value": "0.135",
+                    "Parameter Name": "INW"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "4.42",
+                    "Max Value": "4.862",
+                    "Min Value": "3.978",
+                    "Parameter Name": "k"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "2.393",
+                    "Max Value": "2.6323",
+                    "Min Value": "2.1537",
+                    "Parameter Name": "ML"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "0.035",
+                    "Max Value": "0.0385",
+                    "Min Value": "0.0315",
+                    "Parameter Name": "mt"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "1.503",
+                    "Max Value": "1.6957",
+                    "Min Value": "1.3874",
+                    "Parameter Name": "MW"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "2.194",
+                    "Max Value": "2.4134",
+                    "Min Value": "1.9746",
+                    "Parameter Name": "PL"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "3.297582",
+                    "Max Value": "3.6201",
+                    "Min Value": "2.9619",
+                    "Parameter Name": "PW"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "0.7",
+                    "Max Value": "0.65",
+                    "Min Value": "0.45",
+                    "Parameter Name": "R_out"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "0.8",
+                    "Max Value": "0.88",
+                    "Min Value": "0.72",
+                    "Parameter Name": "SH"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "6.981",
+                    "Max Value": "7.679",
+                    "Min Value": "6.283",
+                    "Parameter Name": "SL"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "8.091",
+                    "Max Value": "8.9",
+                    "Min Value": "7.282",
+                    "Parameter Name": "SW"
+                },
+                {
+                    "Active": "True",
+                    "Anchors": "5",
+                    "Initial Value": "1.5",
+                    "Max Value": "2",
+                    "Min Value": "1",
+                    "Parameter Name": "tl"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "3.8877675826809",
+                    "Max Value": "4.5",
+                    "Min Value": "1.5",
+                    "Parameter Name": "tw"
+                }
+            ],
+            "Range Percentage": "10",
+            "Start From Current": "True"
+        },
+        "Settings": {
+            "CMAES Settings": {
+                "Maximal Iterations": 3000,
+                "Seed": 1,
+                "Sigma": "0.2",
+                "Use External Anchor": "True",
+                "Use Maximal Iterations": "True"
+            },
+            "Classic Powell Settings": {
+                "Accuracy": "0.01"
+            },
+            "General Settings": {
+                "Algorithm Type": "Trust Region Framework",
+                "Data Storage Type": "None",
+                "Goal Summary Type": "Sum of all goals",
+                "Move Mesh": "False",
+                "Start Active Solver": "True",
+                "Use Data Of Prev Calculations": "False"
+            },
+            "Genetic Algorithm Settings": {
+                "Generation Size": 32,
+                "Goal Function Level": "0.0",
+                "Initial Distribution": "Latin Hypercube Distribution",
+                "Interpolation": "No Interpolation",
+                "Maximal Iterations": 30,
+                "Mutation Rate": 60,
+                "Seed": 1
+            },
+            "Nelder Mead Simplex Settings": {
+                "Goal Function Level": "0.0",
+                "Initial Distribution": "Noisy Latin Hypercube Distribution",
+                "Maximal Iterations": 250,
+                "Min Simplex Size": "1e-6",
+                "Seed": 1,
+                "Use External Anchor": "True",
+                "Use Maximal Iterations": "False"
+            },
+            "Particle Swarm Settings": {
+                "Generation Size": 30,
+                "Goal Function Level": "0.0",
+                "Initial Distribution": "Latin Hypercube Distribution",
+                "Interpolation": "No Interpolation",
+                "Maximal Iterations": 15,
+                "Seed": 1
+            },
+            "Quasi Newton Settings": {
+                "Refinements": "1"
+            },
+            "Trust Region Settings": {
+                "Domain Accuracy": "0.01",
+                "Finite Differences Delta": "Automatic",
+                "Maximal Iterations": 500,
+                "Sigma": "0.2",
+                "Use Maximal Iterations": "False"
+            }
+        },
+        "Version": 1
+    }
+}

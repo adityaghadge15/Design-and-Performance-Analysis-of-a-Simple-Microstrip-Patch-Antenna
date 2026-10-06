@@ -1,0 +1,7 @@
+Result/
+*/Result/
+Temp/
+*.m3d
+*.bak
+*.tmp
+*.lock*.lok 

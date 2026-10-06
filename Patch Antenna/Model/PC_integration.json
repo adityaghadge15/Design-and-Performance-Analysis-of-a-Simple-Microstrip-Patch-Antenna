@@ -1,0 +1,94 @@
+{
+   "execution": {
+      "classname": "SMAPowerByEmagHPCFrame",
+      "libname": "SMAPowerByEmagUI"
+   },
+   "inputVariables": [
+      {
+         "name": "SL",
+         "type": "float",
+         "value": 6.981
+      },
+      {
+         "name": "SW",
+         "type": "float",
+         "value": 8.091
+      },
+      {
+         "name": "SH",
+         "type": "float",
+         "value": 0.8
+      },
+      {
+         "name": "mt",
+         "type": "float",
+         "value": 0.035
+      },
+      {
+         "name": "PL",
+         "type": "float",
+         "value": 2.194
+      },
+      {
+         "name": "ML",
+         "type": "float",
+         "value": 2.393
+      },
+      {
+         "name": "PW",
+         "type": "float",
+         "value": 3.297582
+      },
+      {
+         "name": "MW",
+         "type": "float",
+         "value": 1.503
+      },
+      {
+         "name": "INL",
+         "type": "float",
+         "value": 0.55
+      },
+      {
+         "name": "INW",
+         "type": "float",
+         "value": 0.15
+      },
+      {
+         "name": "R_out",
+         "type": "float",
+         "value": 0.7
+      },
+      {
+         "name": "c",
+         "type": "float",
+         "value": 0.2
+      },
+      {
+         "name": "d",
+         "type": "float",
+         "value": 0.2
+      },
+      {
+         "name": "g",
+         "type": "float",
+         "value": 0.2
+      },
+      {
+         "name": "k",
+         "type": "float",
+         "value": 4.42
+      },
+      {
+         "name": "tw",
+         "type": "float",
+         "value": 3.8877675826809
+      },
+      {
+         "name": "tl",
+         "type": "float",
+         "value": 1.4653647415248
+      }
+   ],
+   "outputVariables": []
+}
