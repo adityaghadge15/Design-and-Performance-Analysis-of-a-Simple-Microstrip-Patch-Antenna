@@ -17,3 +17,14 @@ This repository contains the CST Studio Suite simulation model for a Microstrip 
 1. Download or clone this repository.
 2. Open `Patch Antenna.cst` using CST Studio Suite (Version 2020 or newer).
 3. Run the Transient / Frequency Domain Solver to view S-parameters (S_{11}) and 3D Radiation Patterns.
+
+## Simulation Results
+
+### S11 Parameter Plot
+![S11 Plot](images/S11_plot.png)
+
+### Surface current Plot
+![Surface_current Plot](images/surface_current_plot.png)
+
+### Radiation Pattern Plot
+![Radiation_Pattern Plot](images/Radiation_pattern_plot.png)
